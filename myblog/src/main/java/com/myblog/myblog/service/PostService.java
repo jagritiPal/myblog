@@ -5,4 +5,6 @@ import com.myblog.myblog.payload.PostDto;
 public interface PostService {
 
     public PostDto createPost(PostDto postdto);
+
+    PostDto getPostById(long id);
 }
